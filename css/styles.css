@@ -1,0 +1,39 @@
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+h1{
+    background-color: bisque;
+    padding: 10px;
+    margin-left: 10px;
+    text-align: center;
+    width: 400px;
+}
+
+#lista{
+    text-align: left;
+    padding: 10px;
+    flex-wrap: wrap;
+    background-color: beige;
+    width: 400px;
+    margin-left: 10px;
+}
+li{
+    margin: 10px 0px 10px 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+#agregar{
+    margin-left: 10px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#agregar:hover{
+    background-color: aqua;
+}
+
